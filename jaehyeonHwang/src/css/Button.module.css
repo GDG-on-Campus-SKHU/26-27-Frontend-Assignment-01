@@ -1,0 +1,20 @@
+.button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+.primary {
+  background-color: #3b82f6;
+}
+
+.danger {
+  background-color: #ef4444;
+}

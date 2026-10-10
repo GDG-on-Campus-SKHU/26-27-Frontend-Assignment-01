@@ -1,0 +1,53 @@
+.card {
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.leaderCard {
+  border: 2px solid #f59e0b;
+  background-color: #fffbeb;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.leaderBadge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: #f59e0b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.role {
+  margin: 8px 0 4px;
+  color: #475569;
+}
+
+.online {
+  margin: 0 0 12px;
+  color: #16a34a;
+}
+
+.offline {
+  margin: 0 0 12px;
+  color: #94a3b8;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
