@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.container {
+  max-width: 560px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
