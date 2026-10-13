@@ -1,0 +1,16 @@
+.button {
+    padding: 8px 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #4a7dff;
+}
+
+.danger {
+    background-color: #ff5a5a;
+}

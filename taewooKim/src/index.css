@@ -1,0 +1,43 @@
+/* 모든 요소: 크기 계산 방식 통일 */
+* {
+  box-sizing: border-box;
+}
+
+/* 페이지 전체 기본값 */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif;
+  background-color: #f7f8fa;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* 앱 전체 틀: 가운데 정렬 */
+#root {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* 초대 폼 (InviteForm): 한 줄 정렬 */
+form {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+form input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 8px 16px;
+  border: 1px solid #4a7dff;
+  border-radius: 6px;
+  background-color: white;
+  color: #4a7dff;
+  cursor: pointer;
+}
